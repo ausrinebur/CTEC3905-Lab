@@ -1,0 +1,48 @@
+body {
+  background: #white;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+}
+
+h2 {
+  color: grey;
+  text-align: left;
+}
+
+nav{
+  display: flex;
+  justify-content: centre;
+  align-items:stretch;
+  flex-direction: column;
+  padding: 5px 1px;
+  width: 20%;
+  box-sizing:border-box;
+  float: right;
+}
+
+nav a{
+  font-size: 40px;
+  text-decoration: none;
+  color: grey;
+}
+nav a:hover{
+     background-color: #717877;
+     color: white;
+     transition: 1.0s;
+
+   }
+main{
+  width: 80%;
+  padding: left;
+  float: left;
+  box-sizing:border-box;
+}
+
+img {
+  opacity: 0.7;
+  display:flex;
+  box-sizing:border-box;
+}
